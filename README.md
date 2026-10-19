@@ -1,5 +1,7 @@
 # NoiseGaugeBar
 
+**🌐 Website:** [turhe123.github.io/noise-gauge-bar](https://turhe123.github.io/noise-gauge-bar/)
+
 A menu bar decibel readout of the room around your Mac with a history graph and a too-loud alert.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -31,7 +33,9 @@ NoiseGaugeBar is a free, open-source, 100% native, backend-free alternative to p
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-settings.png" alt="NoiseGaugeBar Settings window with Input, Too-loud alert and General sections" width="720"></p>
+
+<p align="center"><em>The Settings window, where you pick the input device, A-weighted or unweighted readings, Fast or Slow smoothing, a calibration offset, the too-loud alert threshold and duration, and launch at login.</em></p>
 
 ## Install
 

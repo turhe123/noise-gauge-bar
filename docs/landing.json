@@ -1,0 +1,60 @@
+{
+  "seo_title": "Menu bar decibel meter for macOS",
+  "seo_description": "NoiseGaugeBar is a free, open-source macOS menu bar decibel meter with a 5-minute history graph, A-weighting, calibration and a too-loud alert.",
+  "hero_title_line1": "Know how loud",
+  "hero_title_accent": "your room is.",
+  "hero_sub": "NoiseGaugeBar puts a live decibel reading in your menu bar. Click it for a five-minute history graph, Min/Avg/Max stats and an optional too-loud alert.",
+  "features_title": "A simple sound meter, built in.",
+  "features_sub": "Everything runs natively on your Mac, with no accounts, no servers and no recorded audio.",
+  "features": [
+    {
+      "icon": "speaker",
+      "title": "Live reading in the menu bar",
+      "desc": "A small level bar and the current dB value, refreshed about four times a second. The popover adds a large number and a word: Quiet, Conversation, Busy or Loud."
+    },
+    {
+      "icon": "clock",
+      "title": "Five-minute history graph",
+      "desc": "See the last 1200 samples with grid lines and a dashed line at your alert level. Min, Avg and Max since start sit below, with a Reset button."
+    },
+    {
+      "icon": "sliders",
+      "title": "Weighting, smoothing, calibration",
+      "desc": "Choose A-weighted or unweighted readings and Fast (125 ms) or Slow (1 s) smoothing. Adjust the calibration offset in 0.5 dB steps to match a reference meter."
+    },
+    {
+      "icon": "bell",
+      "title": "Too-loud alert",
+      "desc": "Get a notification when the level stays above your threshold (default 85 dB) for a set number of seconds. A 3-minute cooldown prevents repeats, and the alert is off by default."
+    },
+    {
+      "icon": "eye",
+      "title": "Private by design",
+      "desc": "Audio is analysed in memory and never recorded, saved or transmitted. The app makes no network connections."
+    },
+    {
+      "icon": "cpu",
+      "title": "Choose your microphone",
+      "desc": "Pick a specific input device or follow the system default. Measuring pauses while the Mac sleeps and resumes on wake."
+    }
+  ],
+  "permissions_step": "When prompted, allow Microphone access; if you declined it, enable NoiseGaugeBar in System Settings > Privacy & Security > Microphone.",
+  "faq": [
+    {
+      "q": "Is NoiseGaugeBar really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no ads, accounts or paid tiers. The full source is on GitHub, and you can build it yourself with Xcode."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Microphone access is required to measure the room. Notifications are requested only if you turn on the too-loud alert, and a login item is used only if you enable Launch at login. It needs no Accessibility or Screen Recording access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Audio is never recorded or saved. Your settings are stored locally in macOS preferences on your Mac, and the history graph lives in memory only and is cleared when you quit."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to run it, or build it from source."
+    }
+  ]
+}
